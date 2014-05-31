@@ -30,11 +30,10 @@ using namespace std;
 class $CLASSNAME$ {
  public:
   $RC$ $METHODNAME$($METHODPARMS$) {
-    $CARETPOSITION$
+    debug("Start calculation.");
   }
   $TESTCODE$
 };
-
 // BEGIN CUT HERE
 int main() {
   $CLASSNAME$ ___test;
